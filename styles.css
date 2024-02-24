@@ -39,3 +39,8 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.Logo img {
+    max-width: 200px; /* Set maximum width */
+    height: auto; /* Maintain aspect ratio */
+}
