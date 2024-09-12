@@ -172,3 +172,20 @@ footer {
     float: right;
     margin-left: 10px;
 }
+
+/* WALKTHROUGH Section 1: Cornelia & Getting Equipped */
+#walkthrough-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#walkthrough-image {
+    display: block;
+    margin: 0 auto;
+}
+
+#walkthrough-text {
+    margin: 20px;
+}
+
