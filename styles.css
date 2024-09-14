@@ -195,6 +195,18 @@ footer {
     margin-bottom: 1in; /* Adds an extra inch to the bottom */
 }
 
+.thank-you {
+    background-color: #e0e0e0;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.thank-you h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+
 
 /* Mobile Stylesheet for Screens 600px and Below */
 
