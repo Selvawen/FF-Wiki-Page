@@ -1,41 +1,74 @@
 # Final Fantasy Wiki Page
 
-## Overview
+This project is a comprehensive wiki page dedicated to the original *Final Fantasy* game. The site includes detailed information on characters, bosses, jobs, magic, weapons, and a full walkthrough to guide players through the game. It is built using HTML and CSS, providing a simple and informative user experience.
 
-The **Final Fantasy Wiki Page** is a fan-made website dedicated to providing detailed information about *Final Fantasy I*. The site includes character profiles, storyline summaries, gameplay walkthroughs, magic spells, weapons, and other key elements of the game. Whether you are a newcomer or a veteran, this wiki is designed to enhance your experience and help you explore the world of Final Fantasy I.
+You can visit the live site here: [Final Fantasy Guide](https://ffguide.xyz).
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [File Structure](#file-structure)
+- [How to Use](#how-to-use)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Project Overview
+
+The Final Fantasy Wiki Page is a static website created to offer detailed insights into the various aspects of the original *Final Fantasy* game. Whether you are a new player or a seasoned veteran, this wiki aims to provide all the information you need, including characters, bosses, job classes, and more.
 
 ## Features
 
-- **Home Page (index.html)**: Introduction to the game and overview of the wiki.
-- **Character Profiles (characters.html)**: Detailed descriptions of main characters, including their abilities, background, and role in the story.
-- **Storyline (story.html)**: A comprehensive breakdown of the game's plot and key events.
-- **Magic (magic.html)**: List of spells and magical abilities available in the game, including descriptions and their effects.
-- **Weapons (weapons.html)**: A catalog of all weapons available, along with their stats and where to find them.
-- **Walkthrough (walkthrough.html)**: Step-by-step guide to navigating the game, including tips and strategies for completing quests.
-- **Images Directory**: Contains artwork, maps, and other visual assets to aid in understanding the game's environments and characters.
+- **Characters**: Detailed descriptions of the key characters in the game.
+- **Jobs**: Explanation of job classes and their evolutions.
+- **Bosses**: Information on all bosses, including strategies for defeating them.
+- **Magic**: A comprehensive list of all magic spells and their uses.
+- **Weapons**: Detailed descriptions of all available weapons and their stats.
+- **Walkthrough**: A step-by-step guide to help players complete the game.
+- **Story**: A detailed explanation of the game's plot.
 
-## Technologies Used
+## File Structure
 
-- **HTML**: Structuring the content of the pages.
-- **CSS**: Styling the website to make it visually appealing and user-friendly.
-- **Images**: Various game-related visual elements, including maps, characters, and items, are stored in the images directory.
+The project includes the following files and directories:
+```bash
+FF-Wiki-Page/
+│
+├── .git/                # Git directory (if included)
+├── images/              # Folder containing all images used in the project
+├── bosses.html          # Boss information page
+├── characters.html      # Character descriptions
+├── index.html           # Homepage of the wiki
+├── jobs.html            # Job classes page
+├── magic.html           # Magic spells page
+├── README.md            # ReadMe file (this file)
+├── story.html           # Full story and plot explanation
+├── styles.css           # Stylesheet for the entire project
+├── walkthrough.html     # Full game walkthrough
+└── weapons.html         # Weapon details and descriptions
+```
 
 ## How to Use
 
-1. Clone or download the repository.
-2. Open `index.html` in any modern web browser to view the homepage and navigate to other sections using the provided links.
-3. Explore the various pages to learn more about the game, its mechanics, and its characters.
+To view the wiki, simply open the `index.html` file in any modern web browser. From the homepage, you can navigate to various sections like Characters, Jobs, Bosses, Magic, and more using the provided links.
 
-## How to Contribute
+### Steps:
+1. Clone or download the project.
+2. Open the `index.html` file in your browser.
+3. Navigate the site using the links to access different game information.
 
-We welcome contributions to improve the quality and depth of this wiki page. To contribute:
+### Requirements
+- A modern web browser (Google Chrome, Firefox, Safari, etc.)
 
-1. **Fork** this repository.
-2. Create a new **branch** for your changes.
-3. Commit and push your changes to your branch.
-4. Create a **pull request** with a detailed explanation of the changes you have made.
+## Contributing
 
-Please ensure that all contributions are respectful to the original source material and follow the community guidelines.
+If you would like to contribute to this project:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes with a clear message.
+4. Push your changes to your forked repository.
+5. Submit a pull request with a detailed description of your changes.
+
 
 ## License
 
