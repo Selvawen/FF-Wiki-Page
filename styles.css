@@ -194,3 +194,124 @@ footer {
 .walkthrough-content {
     margin-bottom: 1in; /* Adds an extra inch to the bottom */
 }
+
+
+/* Mobile Stylesheet for Screens 600px and Below */
+
+
+@media only screen and (max-width: 600px) {
+
+    /* General Body and Text Styling */
+    body {
+        font-size: 14px; /* Ensure readability */
+        line-height: 1.6;
+        margin: 0;
+        padding: 10px; /* Provide padding around the body */
+    }
+
+    /* Header (h1-h6) Adjustments */
+    h1, h2, h3, h4, h5, h6 {
+        font-size: smaller; /* Adjust heading sizes */
+        margin: 10px 0;
+    }
+
+    /* General Content Styling */
+    .container, .content {
+        width: 100%; /* Full-width on mobile */
+        margin: 0 auto; /* Center the content */
+        padding: 10px; /* Add padding for spacing */
+    }
+
+    /* Navigation Styling */
+    .nav {
+        display: flex;
+        flex-direction: column; /* Stack links vertically */
+        align-items: center; /* Center-align navigation */
+        text-align: center; /* Center text */
+        padding: 0; /* Remove padding */
+        margin-bottom: 20px; /* Space below navigation */
+    }
+
+    .nav a {
+        display: block; /* Block-level links for better tap area */
+        padding: 10px 0; /* Add padding for touch-friendly design */
+        text-decoration: none; /* No underline on links */
+        font-size: 16px; /* Larger font size for readability */
+    }
+
+    /* Image Responsiveness */
+    img {
+        max-width: 100%; /* Images should scale down to fit mobile */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    /* Button Styling */
+    button, a {
+        display: inline-block;
+        padding: 10px 20px; /* Larger touch area */
+        font-size: 16px; /* Make text larger for readability */
+        text-align: center;
+        margin: 10px 0; /* Space out buttons */
+    }
+
+    /* Table Responsiveness */
+    table {
+        width: 100%; /* Full-width on mobile */
+        display: block; /* Make table block-level */
+        overflow-x: auto; /* Scrollable if content overflows */
+    }
+
+    /* Form Input Fields */
+    input, textarea {
+        width: 100%; /* Full-width input fields */
+        padding: 10px; /* Add padding for touch-friendly input */
+        font-size: 16px; /* Increase font size for readability */
+        margin-bottom: 10px; /* Space between inputs */
+    }
+
+    /* Footer Adjustments */
+    footer {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    /* Character and Walkthrough Page Adjustments */
+    .character-list, .walkthrough {
+        padding: 10px;
+    }
+
+    /* Additional Containers or Cards */
+    .card {
+        margin-bottom: 20px; /* Space between cards */
+        padding: 15px; /* Add padding within cards */
+        border-radius: 10px; /* Slight rounded corners */
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add slight shadow */
+    }
+
+    /* Text inside Cards */
+    .card h3 {
+        font-size: 18px;
+    }
+
+    /* Adjust Grid Layout for Mobile */
+    .grid {
+        display: block; /* Disable grid layout */
+        width: 100%;
+    }
+
+    /* Adjust Columns to Stack */
+    .column {
+        width: 100%; /* Stack columns vertically */
+        padding: 10px 0;
+    }
+
+    /* Magic and Weapons Pages Adjustments */
+    .magic-list, .weapon-list {
+        padding: 10px;
+    }
+
+    /* Hide elements that are not necessary on mobile */
+    .desktop-only {
+        display: none; /* Hide elements intended for desktop view only */
+    }
+}
